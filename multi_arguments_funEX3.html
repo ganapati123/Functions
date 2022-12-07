@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var res = (tno,minRange,maxRange) =>
+              {
+                for(i=minRange;i<=maxRange;i++)
+                    {
+                        document.write(`${tno}X${i}=${tno*i}<br/>`)
+                    }
+              }
+    </script>
+</head>
+<body>
+    <h2>10<sup>nd</sup>Table</h2>
+    <script>
+        res(10,0,15)
+    </script>
+    <h2>11<sup>rd</sup>Table</h2>
+    <script>
+        res(11,1,20)
+    </script>
+    <h2>12<sup>th</sup>Table</h2>
+    <script>
+        res(12,1,25)
+    </script>
+</body>
+</html>
